@@ -1,0 +1,91 @@
+{
+  "name": "freeze-guard",
+  "version": "1.0.0",
+  "description": "Professional partition and folder state management application",
+  "main": "dist/main.js",
+  "homepage": "./",
+  "scripts": {
+    "start": "concurrently \"npm run start:renderer\" \"wait-on http://localhost:3001 && npm run start:electron\"",
+    "start:renderer": "set PORT=3001 && react-scripts start",
+    "start:electron": "electron .",
+    "start:desktop": "node start-desktop.js",
+    "build": "npm run build:renderer && npm run build:electron",
+    "build:renderer": "react-scripts build",
+    "build:electron": "tsc -p tsconfig.electron.json",
+    "dist": "npm run build && electron-builder",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "freeze",
+    "partition",
+    "folder",
+    "state-management",
+    "desktop-app"
+  ],
+  "author": "Freeze Guard Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/uuid": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "concurrently": "^7.6.0",
+    "electron": "^23.0.0",
+    "electron-builder": "^23.6.0",
+    "eslint": "^8.37.0",
+    "eslint-plugin-react": "^7.32.0",
+    "typescript": "^4.9.5",
+    "wait-on": "^7.0.1"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.15",
+    "@reduxjs/toolkit": "^1.9.3",
+    "chokidar": "^3.5.3",
+    "electron-store": "^8.1.0",
+    "framer-motion": "^10.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-scripts": "5.0.1",
+    "uuid": "^9.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "build": {
+    "appId": "com.freezeguard.app",
+    "productName": "Freeze Guard",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "build/**/*",
+      "dist/main.js",
+      "node_modules/**/*"
+    ],
+    "mac": {
+      "category": "public.app-category.utilities"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
