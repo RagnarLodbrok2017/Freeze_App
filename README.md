@@ -30,34 +30,34 @@
   <table>
     <tr>
       <td align="center">
-        <img src="https://img.icons8.com/fluency/48/000000/freeze.png" alt="Freeze" width="40">
+        <img src="https://cdn-icons-png.flaticon.com/64/2933/2933245.png" alt="Freeze" width="40">
         <br><strong>Partition & Folder Freezing</strong>
         <br><em>Create snapshots of entire partitions or specific folders</em>
       </td>
       <td align="center">
-        <img src="https://img.icons8.com/fluency/48/000000/activity-monitor.png" alt="Monitor" width="40">
+        <img src="https://cdn-icons-png.flaticon.com/64/1055/1055687.png" alt="Monitor" width="40">
         <br><strong>Real-time Monitoring</strong>
         <br><em>Track changes to frozen targets in real-time</em>
       </td>
       <td align="center">
-        <img src="https://img.icons8.com/fluency/48/000000/design.png" alt="UI" width="40">
+        <img src="https://cdn-icons-png.flaticon.com/64/3281/3281289.png" alt="UI" width="40">
         <br><strong>Modern UI</strong>
         <br><em>Beautiful, responsive interface with Material Design</em>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="https://img.icons8.com/fluency/48/000000/architecture.png" alt="Architecture" width="40">
+        <img src="https://cdn-icons-png.flaticon.com/64/2920/2920277.png" alt="Architecture" width="40">
         <br><strong>Professional Architecture</strong>
         <br><em>Built with industry-standard patterns and practices</em>
       </td>
       <td align="center">
-        <img src="https://img.icons8.com/fluency/48/000000/speed.png" alt="Performance" width="40">
+        <img src="https://cdn-icons-png.flaticon.com/64/1041/1041883.png" alt="Performance" width="40">
         <br><strong>Performance Optimized</strong>
         <br><em>Efficient snapshot creation and restoration</em>
       </td>
       <td align="center">
-        <img src="https://img.icons8.com/fluency/48/000000/security-checked.png" alt="Security" width="40">
+        <img src="https://cdn-icons-png.flaticon.com/64/2092/2092063.png" alt="Security" width="40">
         <br><strong>Secure</strong>
         <br><em>Optional encryption for snapshots</em>
       </td>
@@ -65,7 +65,19 @@
   </table>
 </div>
 
-## Technology Stack
+## 💻 Programming Languages & Technologies
+
+<div align="center">
+  <p>
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+  </p>
+</div>
+
+## 🛠️ Technology Stack
 
 - **Frontend**: React 18 + TypeScript + Material-UI
 - **Backend**: Electron + Node.js
@@ -329,5 +341,5 @@ For support and questions:
   <br>
   <strong>🧊 Freeze Guard</strong> - Professional state management for the modern desktop
   <br><br>
-  <em>Made with ❤️ by the Freeze Guard Team</em>
+  <em>Made with ❤️ by <a href="mailto:ahmedrmohamed2017@gmail.com">Ahmed Elnakieb</a></em>
 </div>
